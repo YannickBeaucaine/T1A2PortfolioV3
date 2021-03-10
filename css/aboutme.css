@@ -80,9 +80,9 @@ body, html {
 }
 
 .container {
-  width: 80%;
+  width: 50%;
   margin: auto;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .container .title {
@@ -131,7 +131,7 @@ body, html {
 @media screen and (max-width: 900px) {
   .container {
     width: 80%;
-    padding-top: 80px;
+    padding-top: 74px;
   }
   .container .title {
     text-align: center;
@@ -148,7 +148,6 @@ body, html {
     width: 100%;
     float: none;
     margin-top: 25px;
-    position: static;
   }
 }
 /*# sourceMappingURL=aboutme.css.map */
