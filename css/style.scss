@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-// setting general pages parameters
 // importing navigation bar properties 
 @import "./navbar";
-
+// setting general pages parameters
 body, html {
     height: 100%;
     font-family: 'poppins', sans-serif;
@@ -34,7 +33,7 @@ body, html {
   transform: translate(-50%, -50%);
   color:black;
 }
-/* Place social links and copyright footer at the bottom of the page */
+/* Place copyright footer at the bottom of the page */
 .footer {
     position: fixed;
     left: 0;

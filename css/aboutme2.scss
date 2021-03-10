@@ -1,0 +1,11 @@
+@import "./navbar";
+// setting general pages parameters
+body {
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+    background-image: url(/img/bgimage.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
