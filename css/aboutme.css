@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-container {
+  background: none;
+}
+
+.nav-container a {
+  color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.social-header {
+  display: none;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url(/img/bgimage.svg);
+  /* Set a specific height */
+  height: 74%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutme-container {
+  background: white;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.container .title {
+  font-size: 30;
+  letter-spacing: 1px;
+}
+
+.container .title::after {
+  content: "";
+  width: 132px;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+  display: block;
+}
+
+.wrapper {
+  margin: 40px auto;
+}
+
+.content {
+  width: 50%;
+  float: left;
+  text-align: left;
+  background: white;
+}
+
+.image-section {
+  width: 45%;
+  float: right;
+}
+
+.content h3 {
+  letter-spacing: 1px;
+}
+
+.content p {
+  margin-top: 10px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 80%;
+    padding-top: 80px;
+  }
+  .container .title {
+    text-align: center;
+  }
+  .container .title::after {
+    display: block;
+    margin: auto;
+  }
+  .content {
+    width: 100%;
+    float: none;
+  }
+  .image-section {
+    width: 100%;
+    float: none;
+    margin-top: 25px;
+    position: static;
+  }
+}
+/*# sourceMappingURL=aboutme.css.map */
