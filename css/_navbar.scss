@@ -1,0 +1,50 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+// removing underlines of links
+a {
+    text-decoration: none;
+}
+// logos sizing and responsiveness
+img {
+    width: 100%;
+}
+// navigation bar settings
+.nav-container {
+    background: none;
+
+    a {
+        color:black;
+
+    }
+}
+// making header responsive
+header {
+    display: flex;
+    justify-content: space-between;
+    // white space between words
+    padding: 2em;
+
+    .logo {
+        font-weight: bold;
+    }
+
+    ul {
+        display: flex;
+
+        a {
+            // adding display block for padding to work
+            display: block;
+            padding: 0 1em;
+        }
+    }
+    
+}
+.social-header {
+    display: none;
+
+}
