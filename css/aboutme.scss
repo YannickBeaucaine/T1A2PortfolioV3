@@ -15,7 +15,7 @@ body, html {
     background-image: url(/img/bgimage.svg);
   
     /* Set a specific height */
-    height: 74%;
+    height: 80%;
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
@@ -55,25 +55,42 @@ body, html {
     margin: 40px auto;
 }
 .content {
-    width: 50%;
+    width: 45%;
     float: left;
     text-align: left;
     background: white;
+    box-shadow: 2px 2px 5px;
 }
 .image-section {
-    width: 45%;
+    width: 42%;
     float: right;
+    box-shadow: 2px 2px 5px;
 }
 .content h3{
-    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 50px;
 }
 .content p{
-    margin-top: 10px;
+    margin-top: 20px;
+    padding: 8px;
 }
+// picture resizing
 .image-section img{
     max-width: 100%;
     height: auto;
     
+}
+/* Place copyright footer at the bottom of the page */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    bottom: 0;
 }
 
 // phone responsiveness querie
@@ -98,6 +115,8 @@ body, html {
         width: 100%;
         float: none;
         margin-top: 25px;
+        
+        
        
     }
 }

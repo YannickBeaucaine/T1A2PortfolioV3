@@ -63,7 +63,7 @@ body, html {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image: url(/img/bgimage.svg);
   /* Set a specific height */
-  height: 74%;
+  height: 80%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
@@ -104,28 +104,47 @@ body, html {
 }
 
 .content {
-  width: 50%;
+  width: 45%;
   float: left;
   text-align: left;
   background: white;
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
 }
 
 .image-section {
-  width: 45%;
+  width: 42%;
   float: right;
+  -webkit-box-shadow: 2px 2px 5px;
+          box-shadow: 2px 2px 5px;
 }
 
 .content h3 {
-  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .content p {
-  margin-top: 10px;
+  margin-top: 20px;
+  padding: 8px;
 }
 
 .image-section img {
   max-width: 100%;
   height: auto;
+}
+
+/* Place copyright footer at the bottom of the page */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  bottom: 0;
 }
 
 @media screen and (max-width: 900px) {
