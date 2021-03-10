@@ -97,6 +97,37 @@ body, html {
   padding: 30px;
 }
 
+.container .card {
+  position: relative;
+  max-width: 300px;
+  height: 420px;
+  background: white;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: o 5px 202px rgba(0, 0, 0, 0.5);
+          box-shadow: o 5px 202px rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.container .card .imgbx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+}
+
+.container .card .imgbx img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
 /* Place copyright footer at the bottom of the page */
 .footer {
   position: fixed;

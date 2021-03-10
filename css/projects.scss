@@ -42,6 +42,29 @@ body, html {
     padding: 30px;
 
 }
+.container .card{
+    position: relative;
+    max-width: 300px;
+    height: 420px;
+    background: white;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: o 5px 202px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+
+}
+.container .card .imgbx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+}
+.container .card .imgbx img{
+    max-width: 100%;
+    border-radius: 4px;
+
+}
 /* Place copyright footer at the bottom of the page */
 .footer {
     position: fixed;
