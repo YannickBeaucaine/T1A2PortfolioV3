@@ -1,0 +1,141 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.navbar {
+  background: white;
+}
+
+.navbar a {
+  color: black;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul a {
+  display: block;
+  padding: 0 0.5em;
+}
+
+.social-media {
+  display: none;
+}
+
+@media screen and (min-width: 623px) {
+  .navbar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 99%;
+        grid-template-columns: 99%;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+}
+
+body {
+  height: 100%;
+  font-family: 'poppins', sans-serif;
+  background-image: url(/img/bgimage.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.main-content {
+  background: none;
+  background-size: 100%;
+  max-width: 1300px;
+  height: 400px;
+  margin-top: 8em;
+}
+
+.main-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-main h1 {
+  margin-top: 4em;
+  color: black;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+/* Button settings  */
+.cv-button {
+  text-align: center;
+}
+
+.button {
+  background: none;
+  border: 2px solid black;
+  font-family: 'poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+/* button animation on hover effect  */
+.button:hover {
+  color: #9c8b8b;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro-main h1 {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .intro-main h1 {
+    margin-top: -1em;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cv-button {
+    margin-top: 4em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
