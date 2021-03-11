@@ -112,6 +112,7 @@ body {
 
 .article-content {
   padding: 2rem;
+  min-height: auto;
 }
 
 .article-content .card-author {
@@ -134,18 +135,6 @@ body {
   padding-bottom: 1px;
 }
 
-/* Place copyright footer at the bottom of the page */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: white;
-  color: black;
-  text-align: center;
-  font-size: 12px;
-}
-
 /* Button animation settings  */
 button {
   position: relative;
@@ -166,19 +155,31 @@ button:hover {
   color: #9F97C8;
 }
 
+/* Place copyright footer at the bottom of the page */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 768px) {
-  .site-container {
+  .footer .site-container {
     max-width: 608;
     min-width: none;
   }
-  .article-card {
+  .footer .article-card {
     display: -ms-grid;
     display: grid;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .site-container {
+  .footer .site-container {
     max-width: 1156px;
   }
 }
