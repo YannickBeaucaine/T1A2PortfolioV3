@@ -21,6 +21,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(265px,1fr));
     gap: 2rem;
+   
 }
 .article-image{
     margin: 0;
@@ -49,7 +50,7 @@ body {
 
 .article-content .card-author {
     margin: 0.5rem 4;
-    color: #9F97C8;
+    // color: #9F97C8;
     font-size: 0.9rem;
 }
 .article-content .card-date{
