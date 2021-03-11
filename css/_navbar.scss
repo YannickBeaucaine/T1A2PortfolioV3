@@ -15,11 +15,11 @@ img {
     width: 100%;
 }
 // navigation bar settings
-.nav-container {
-    background: whitesmoke;
+.navbar{
+    background:white;
 
     a {
-        color:black;
+        color:rgb(0, 0, 0);
 
     }
 }
@@ -27,7 +27,7 @@ img {
 header {
     display: flex;
     justify-content: space-between;
-    // white space between words
+    // white space around words
     padding: 2em;
 
     .logo {
@@ -40,12 +40,32 @@ header {
         a {
             // adding display block for padding to work
             display: block;
-            padding: 0 1em;
+            padding: 0 0.5em;
         }
     }
     
 }
-.social-header {
+.social-media {
     display: none;
 
 }
+
+@media screen and (min-width:623px) {
+    .navbar{
+        display: grid;
+        grid-template-columns:99%;
+     
+        
+
+    }
+    header{
+        padding: 2em 2em 2em 4em;
+    }
+    
+
+    
+
+}
+
+
+

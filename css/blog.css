@@ -12,11 +12,11 @@ img {
   width: 100%;
 }
 
-.nav-container {
-  background: whitesmoke;
+.navbar {
+  background: white;
 }
 
-.nav-container a {
+.navbar a {
   color: black;
 }
 
@@ -42,11 +42,23 @@ header ul {
 
 header ul a {
   display: block;
-  padding: 0 1em;
+  padding: 0 0.5em;
 }
 
-.social-header {
+.social-media {
   display: none;
+}
+
+@media screen and (min-width: 623px) {
+  .navbar {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 99%;
+        grid-template-columns: 99%;
+  }
+  header {
+    padding: 2em 2em 2em 4em;
+  }
 }
 
 body {
