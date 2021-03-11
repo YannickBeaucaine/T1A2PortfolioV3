@@ -54,12 +54,34 @@ header {
 .footer {
     position: fixed;
     left: 0;
-    bottom: 0;
+    bottom: 2px;
     width: 100%;
     background-color: none;
     color: black;
     text-align: center;
     font-size: 12px;
+}
+// footer styling
+
+.footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4em;
+
+
+    ul{
+        display: flex;
+        justify-content: center;
+        width: 7em;
+        
+        
+        
+        img {
+            width: 30px;
+            padding: 0 4px;
+        }
+    }
 }
 
 @media screen and (min-width:623px) {
