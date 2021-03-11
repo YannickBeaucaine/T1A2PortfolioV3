@@ -49,6 +49,18 @@ header ul a {
   display: none;
 }
 
+/* Place copyright footer at the bottom of the page */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: none;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+}
+
 @media screen and (min-width: 623px) {
   .navbar {
     display: -ms-grid;
@@ -123,17 +135,18 @@ body {
 
 .footer-container {
   background: none;
-  height: 120px;
+  height: 10px;
   position: relative;
 }
 
 .footer-container .footer {
+  height: 1px;
   text-align: center;
   position: absolute;
   bottom: 0px;
   left: 0px;
-  padding-top: 10px;
   width: 100%;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 1000px) {

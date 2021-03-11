@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .intro-main{
 
@@ -63,21 +63,19 @@ body {
 // footer styling 
 .footer-container{
     background: none;
-    height: 120px;
+    height: 10px;
     position: relative;
-   
+
     .footer{
-    
+        height: 1px;
         text-align: center;
         position: absolute;
         bottom: 0px;
         left: 0px;
-        padding-top: 10px;
         width: 100%;
-    
-    
+        padding-top: 20px;
     }
-
+    
 }
 
 

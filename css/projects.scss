@@ -54,17 +54,6 @@ body {
     color: black;
 }
 
-/* Place copyright footer at the bottom of the page */
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:white;
-    color: black;
-    text-align: center;
-    font-size: 12px;
-}
 
 // adding media querie to shift cards positions  for tablet and desktop
 @media screen and(min-width: 768px){
