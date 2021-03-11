@@ -7,24 +7,72 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    // position: relative;
 }
-.main-content{
-    background: white;
-    border: 2px solid red;
-    background-size: 100%;
-    max-width: 1300px;
-    height: 400px;
-    margin-top: 8em;
-    display: flex;
 
-}
-.main-hero{
+// site container size 
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% -80px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.profil-pic{
-    min-width: 300px;
+/* About me Card Styling */
+.article-container {
+    width: 600px;
+    max-width: 800px;
+    height: 300px;
+
+
 }
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    height: 200px;
+
+}
+.article-image img{
+    max-width: 100%;
+    height: auto;
+  
+
+}
+.article-card{
+    background: white;
+    transition: 0.3s;
+}
+// componnent styling effect 
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+.article-content{
+    padding: 2rem;
+    padding-top: 1px;
+}
+
+.article-content .card-title {
+    margin: 2rem 4;
+    color: #9F97C8;
+}
+.article-content .card-excerpt {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    color: black;
+    margin-top: 0;
+}
+.studies-list, .awards-list{
+    font-size: 13px;
+    margin-top: 0;
+}
+h5{
+    margin-bottom: 2px;
+}
+.card-title{
+    margin-top: 0%;
+}
+
