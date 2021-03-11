@@ -130,6 +130,26 @@ body {
   font-size: 12px;
 }
 
+/* Button animation settings  */
+button {
+  position: relative;
+  top: 1vh;
+  background: none;
+  border: 2px solid black;
+  font-family: 'poppins', sans-serif;
+  text-transform: uppercase;
+  padding: 10px 18px;
+  color: black;
+  cursor: pointer;
+  -webkit-transition: color 0.4s linear;
+  transition: color 0.4s linear;
+}
+
+/* button animation on hover effect  */
+button:hover {
+  color: #9F97C8;
+}
+
 @media screen and (min-width: 768px) {
   .site-container {
     max-width: 608;
