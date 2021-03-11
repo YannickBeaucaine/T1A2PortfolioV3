@@ -30,6 +30,7 @@ body {
 .article-image img{
     max-width: 100%;
     height: auto;
+    max-height: 300px;
     
 
 }
@@ -54,7 +55,9 @@ body {
 .article-content .card-date{
     font-size: 0.8rem;
 }
-
+.article-content .card-name{
+    font-size: 1.2rem;
+}
 .article-content .card-blog-snip {
     font-size: 1rem;
     line-height: 1.4rem;
