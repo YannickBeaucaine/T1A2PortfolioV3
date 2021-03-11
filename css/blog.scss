@@ -1,18 +1,97 @@
-// content styling 
-.content{
-    width: 90%;
-    margin: 30px auto 30px;
-    border: 1px solid red;
-}
-// blog cards content 
-.content .main-content{
-    width: 100%;
-    float: left;
-    border: 1px solid blue;
+@import "./navbar";
+// setting general pages parameters
+body {
+    height: 100%;
+    font-family: 'poppins', sans-serif;
+    background-image: url(/img/bgimage.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.clearfix::after{
-    content: '';
-    display: block;
-    clear: both;
+// site container size 
+.site-container{
+    margin: 2rem auto;
+    max-width: calc(100% -80px);
+}
+
+/* Project Cards Styling */
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px,1fr));
+    gap: 2rem;
+}
+.article-image{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img{
+    max-width: 100%;
+    height: auto;
+    
+
+}
+.article-card{
+    background: white;
+    transition: 0.3s;
+    min-width: 300px;
+}
+.article-card:hover{
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+.article-content{
+    padding: 2rem;
+}
+
+.article-content .card-author {
+    margin: 0.5rem 4;
+    color: #9F97C8;
+    font-size: 0.9rem;
+}
+.article-content .card-date{
+    font-size: 0.8rem;
+}
+
+.article-content .card-blog-snip {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: black;
+    padding-bottom: 1px;
+}
+// font name and sate style 
+
+
+/* Place copyright footer at the bottom of the page */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+}
+
+// adding media querie to shift cards positions  for tablet and desktop
+@media screen and(min-width: 768px){
+    .site-container{
+        max-width: 608;
+        min-width: none;
+
+    }
+    .article-card {
+        display: grid;
+        // grid-template-rows: 350px 2fr;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .site-container{
+        max-width: 1156px;
+        
+    }
 }
