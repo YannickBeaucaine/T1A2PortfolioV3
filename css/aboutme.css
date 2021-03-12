@@ -153,7 +153,6 @@ body {
 .article-card:hover {
   -webkit-box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
           box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
-  cursor: pointer;
 }
 
 .article-content {
