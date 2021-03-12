@@ -1,0 +1,191 @@
+commit 879ef928dfe81241b59872b39cedbd0173a0afa7
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 11:24:46 2021 +1100
+
+    final commit2
+
+commit 2c8dcb7c8442358b36ef61310edeaae90595b66c
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 04:22:20 2021 +1100
+
+    final commit
+
+commit e2151fefb5615be189310fae1af26a2b03bcbb2d
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 04:10:28 2021 +1100
+
+    blog posts added
+
+commit 96f1144807a93aa57512725f3b22fc9e7704d6f2
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 03:37:12 2021 +1100
+
+    projects page done
+
+commit 908b980e6aef7a3f71d63cdfd4a5041fada6effa
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 03:24:38 2021 +1100
+
+    index page done
+
+commit a7a3656c54a84fe0738bc4f3b853af887a79efb0
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 03:18:32 2021 +1100
+
+    final index page
+
+commit 23a0c7d199a5fb7a5a7acf93af5e7d08f6f2ba35
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 03:08:37 2021 +1100
+
+    footer fixed
+
+commit 67356bd127ac8dd6e886d3098108dd57750e0b71
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Fri Mar 12 01:43:56 2021 +1100
+
+    about me completed
+
+commit 0fcac544d98d8b9e3e448fa58a523ef661e5bd3e
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 23:37:33 2021 +1100
+
+    about me redesign
+
+commit 873f4f611d798522983c8ce7093a6275a6939962
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 22:41:00 2021 +1100
+
+    fixed footer
+
+commit b12fc50b1379d5903dc13bfd7758e677d618915f
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 22:12:03 2021 +1100
+
+    fixed index page
+
+commit aba0c8b7592024f554858a17aae8ab0411cc809d
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 20:12:42 2021 +1100
+
+    index page file corrupted recovered
+
+commit e51591ed5cae691242593c47c8cb6c7baf5265b0
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 16:47:17 2021 +1100
+
+    home page redesign
+
+commit addbdd4d223e25086ffddf2be84d2e13ccb1f617
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 15:24:38 2021 +1100
+
+    blog page completed
+
+commit db5fb423f2ec946aca31b4160a5096569e48dd86
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 15:02:35 2021 +1100
+
+    added remaining cards
+
+commit 75caebed6c0c44db9de85dcdb90b06b2ba70d037
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 14:26:53 2021 +1100
+
+    added buttons styling
+
+commit 984e7609cad9509addd1f1b1acd5200fb53f1513
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 14:22:53 2021 +1100
+
+    added buttons to blog page
+
+commit ce32c5cc38e96b7bfd38b9b1ecab40a6e181aafa
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 11:49:20 2021 +1100
+
+    blog page post1
+
+commit d13d5f85101bbaf81b4d4192f417189d7437c852
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 10:13:05 2021 +1100
+
+    aboutme page redesign
+
+commit ab4e5f4480dc6e5b849d59aaee3204ae5381657e
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 02:33:06 2021 +1100
+
+    blog page redesign
+
+commit 5dff2d9391e3f281ab89f4918cb6d2a82388e838
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Thu Mar 11 01:59:44 2021 +1100
+
+    fixed display grid and animation
+
+commit 7a77fedb67bbc45f8d27cb1a8a4ffeefa5faf743
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 23:36:52 2021 +1100
+
+    content animation
+
+commit 531cf56a32b1bb987cb07a2b2de5ec31271518fa
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 23:01:47 2021 +1100
+
+    project page css
+
+commit abb8fe8572d247ba35bbecaf73982e30d888d305
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 22:56:11 2021 +1100
+
+    created project page HTML
+
+commit ab7be763b559fe4f5aa14575eda5e1dac0eaf26a
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 21:41:27 2021 +1100
+
+    fixed footer
+
+commit 1a77961da9d10bc87c1683dab29ee738d5461e07
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 21:05:39 2021 +1100
+
+    fixed textin about me section
+
+commit d19bd0ebfefcb3f5ea137d789a05c76f04e49fa7
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 20:28:33 2021 +1100
+
+    filled about me text
+
+commit 712cf3cdef74cf1cb50cffbe1e9c3cfd73adc8b8
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 20:03:59 2021 +1100
+
+    added about me page and css
+
+commit 81e84ad333fccffb90acd35b5c722dc2f77d6c95
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 17:21:08 2021 +1100
+
+    added navigation bar styling
+
+commit 50b842e9aa82037d7b11a1e22d7e74777035c59c
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 17:16:37 2021 +1100
+
+    added styling for index page
+
+commit 23b0f49f73f6b9fc149ec0c15575f46586247b21
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 17:14:40 2021 +1100
+
+    index page hmtl
+
+commit 15cfa9052e762521818c68ffeaecb5abd52ebacb
+Author: YannickBeaucaine <yannick.beaucaine@gmail.com>
+Date:   Wed Mar 10 17:10:38 2021 +1100
+
+    first commit,creatin of files
